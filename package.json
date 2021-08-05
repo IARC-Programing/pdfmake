@@ -1,6 +1,6 @@
 {
   "name": "addthaifont-pdfmake",
-  "version": "0.1.1-alpha",
+  "version": "0.1.2-alpha",
   "description": "adding 3 thai fonts as defult in pdfmake",
   "main": "js/index.js",
   "esnext": "src/index.js",
@@ -54,7 +54,7 @@
     "build:clean": "shx rm -rf js build",
     "build:node": "babel src --out-dir js",
     "build:browser": "webpack",
-    "build:vfs": "node build-vfs.js \"./examples/fonts\"",
+    "build:vfs": "node build-vfs.js \"./fonts/Kanit\" && node build-vfs.js \"./fonts/Prompt\" && node build-vfs.js \"./fonts/Sarabun\"",
     "build:examples": "node build-examples.js",
     "build:standard-fonts": "shx mkdir -p build/standard-fonts && brfs \"./src/browser-extensions/standard-fonts/Courier.js\" > build/standard-fonts/Courier.js && brfs \"./src/browser-extensions/standard-fonts/Helvetica.js\" > build/standard-fonts/Helvetica.js && brfs \"./src/browser-extensions/standard-fonts/Times.js\" > build/standard-fonts/Times.js && brfs \"./src/browser-extensions/standard-fonts/Symbol.js\" > build/standard-fonts/Symbol.js && brfs \"./src/browser-extensions/standard-fonts/ZapfDingbats.js\" > build/standard-fonts/ZapfDingbats.js",
     "build:roboto": "shx mkdir -p build/fonts && shx mkdir -p build/fonts/Roboto && shx cp -r fonts/Roboto/*.* build/fonts/Roboto && brfs \"./src/browser-extensions/fonts/Roboto.js\" > build/fonts/Roboto.js",
