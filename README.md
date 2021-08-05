@@ -7,6 +7,31 @@ To Install Package
 npm i addthaifont-pdfmake
 ```
 
+Add fonts config file like that
+
+```
+pdfMake.fonts = {
+  Sarabun: {
+		normal: "Sarabun-Light.ttf",
+		bold: "Sarabun-Regular.ttf",
+		italics: "Sarabun-LightItalic.ttf",
+		bolditalics: "Sarabun-Italic.ttf",
+	},
+	Kanit: {
+		normal: "Kanit-Light.ttf",
+		bold: "Kanit-Regular.ttf",
+		italics: "Kanit-LightItalic.ttf",
+		bolditalics: "Kanit-Italic.ttf",
+	},
+	Prompt: {
+		normal: "Prompt-Light.ttf",
+		bold: "Prompt-Regular.ttf",
+		italics: "Prompt-LightItalic.ttf",
+		bolditalics: "Prompt-Italic.ttf",
+	},
+}
+```
+
 ---
 
 # pdfmake [![Node.js CI][githubactions_img]][githubactions_url] [![GitHub][github_img]][github_url] [![npm][npm_img]][npm_url] [![Bower][bower_img]][bower_url] [![Packagist][packagist_img]][packagist_url] [![CDNJS][cdnjs_img]][cndjs_url]
