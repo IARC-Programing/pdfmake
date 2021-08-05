@@ -1,7 +1,7 @@
 {
-  "name": "pdfmake",
-  "version": "0.3.0-alpha.0",
-  "description": "Client/server side PDF printing in pure JavaScript",
+  "name": "addthaifont-pdfmake",
+  "version": "0.1.0-alpha",
+  "description": "adding 3 thai fonts as defult in pdfmake",
   "main": "js/index.js",
   "esnext": "src/index.js",
   "browser": "build/pdfmake.js",
@@ -66,20 +66,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bpampuch/pdfmake.git"
+    "url": "git://github.com/IARC-Programing/pdfmake"
   },
   "keywords": [
     "pdf",
+    "pdfmake",
+    "thai",
     "javascript",
     "printing",
     "layout"
   ],
-  "author": "Bartek Pampuch <bartosz.pampuch@gmail.com>",
+  "author": "Intelligent Automation Research Center <iarc.psu@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bpampuch/pdfmake/issues"
   },
-  "homepage": "http://pdfmake.org",
+  "homepage": "https://github.com/IARC-Programing/pdfmake/tree/master#readme",
   "config": {
     "blanket": {
       "pattern": "src",
