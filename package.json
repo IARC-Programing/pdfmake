@@ -1,6 +1,6 @@
 {
   "name": "addthaifont-pdfmake",
-  "version": "0.1.0-alpha",
+  "version": "0.1.1-alpha",
   "description": "adding 3 thai fonts as defult in pdfmake",
   "main": "js/index.js",
   "esnext": "src/index.js",
