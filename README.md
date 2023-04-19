@@ -1,11 +1,11 @@
-# Add Thai Font - pdfMake
+# PDFMake Thaifont 2
 
 Adding Thai Language and Thai Fonts Sarabun, Kanit, Prompt, Angsana and Fontawesone based on pdfMake.
 
 To Install Package
 
 ```
-npm i addthaifont-pdfmake
+npm i pdfmake-thaifont-2
 ```
 
 Add fonts config file like that
