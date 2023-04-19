@@ -1,6 +1,7 @@
-# pdfmake addThaiFonts
+# Add Thai Font - pdfMake
 
-Adding Thai Language and Thai Fonts Sarabun, Kanit and Prompt based on pdfMake.
+Adding Thai Language and Thai Fonts Sarabun, Kanit, Prompt, Angsana and Fontawesone based on pdfMake.
+
 To Install Package
 
 ```
@@ -17,20 +18,92 @@ pdfMake.fonts = {
 		italics: "Sarabun-LightItalic.ttf",
 		bolditalics: "Sarabun-Italic.ttf",
 	},
-	Kanit: {
+}
+```
+
+## Available Fonts
+
+### Sarabun (Google Fonts)
+
+```
+ Sarabun: {
+		normal: "Sarabun-Light.ttf",
+		bold: "Sarabun-Regular.ttf",
+		italics: "Sarabun-LightItalic.ttf",
+		bolditalics: "Sarabun-Italic.ttf",
+	},
+```
+
+### Kanit
+
+```
+Kanit: {
 		normal: "Kanit-Light.ttf",
 		bold: "Kanit-Regular.ttf",
 		italics: "Kanit-LightItalic.ttf",
 		bolditalics: "Kanit-Italic.ttf",
-	},
+	}
+```
+
+### Prompt
+
+```
+
 	Prompt: {
 		normal: "Prompt-Light.ttf",
 		bold: "Prompt-Regular.ttf",
 		italics: "Prompt-LightItalic.ttf",
 		bolditalics: "Prompt-Italic.ttf",
-	},
+	}
+```
+
+### Impac
+
+```
+{
+	 Impac: {
+    normal: 'impac.ttf',
+    bold: 'impac.ttf',
+    italics: 'impac.ttf',
+    bolditalics: 'impac.ttf',
+  },
 }
 ```
+
+### AngsanaNew
+
+```
+ AngsanaNew: {
+    normal: 'AngsanaNew.ttf',
+    bold: 'AngsanaNew_bold.ttf',
+    italics: 'AngsanaNew.ttf',
+    bolditalics: 'AngsanaNew.ttf',
+  },
+```
+
+### FontAwesome
+
+```
+ FontAwesome: {
+    normal: 'FontAwesome_regular.ttf',
+    bold: 'FontAwesome_regular.ttf',
+    italics: 'FontAwesome_regular.ttf',
+    bolditalics: 'FontAwesome_regular.ttf',
+  },
+```
+
+### THSarabunNew
+
+```
+THSarabunNew: {
+    normal: 'THSarabunNew.ttf',
+    bold: 'THSarabunNew Bold.ttf',
+    italics: 'THSarabunNew-Italic.ttf',
+    bolditalics: 'THSarabunNew-BoldItalic.ttf',
+  },
+```
+
+Implemented with ❤ By Intelligent Automation Research Center Prince of Songkla University
 
 ---
 
